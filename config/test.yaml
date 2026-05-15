@@ -1,0 +1,27 @@
+seed: 42
+bs_annos_path: null
+n_bootstrap: 10
+scorer_model_root: ckpt
+dataset_version: v5
+save_root_postfix: test
+test_type: full
+loss_type: ranking+regression
+test_target_vton_model_ids:
+  - fitdit
+  - any2any
+  - catvton_flux
+  - catvton
+  - idm
+  - oot
+  - vitonhd
+  - hrviton
+  - sdviton
+  - qwen_edit
+  - nanobanana
+  - openai
+  - catdm
+  - ladi
+test_target_dataset_types:
+  - synth_vton
+  - vton_evals_dc
+  - vton_evals_vitonhd

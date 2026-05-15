@@ -1,0 +1,6 @@
+seed: 42
+batch_size: 32
+scorer_model_root: ckpt
+vton_images_root: null
+dataset_type: vitonhd
+save_root_postfix: null

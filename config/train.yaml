@@ -1,0 +1,77 @@
+batch_size: 16
+max_epochs: 30
+loss_type: ranking+regression
+save_every_epochs: 1
+seed: 42
+grad_accum_steps: 1
+early_stopping_patience: 3
+dataset_use_ratio: 1.0
+dataset_version: v5
+standardization_type: minmax
+real_augmentation: false
+save_root_postfix: null
+train_target_vton_model_ids:
+  - fitdit
+  - any2any
+  - catvton_flux
+  - catvton
+  - idm
+  - oot
+  - vitonhd
+  - hrviton
+  - sdviton
+  - qwen_edit
+  - nanobanana
+  - openai
+  - catdm
+  - ladi
+valid_target_vton_model_ids:
+  - fitdit
+  - any2any
+  - catvton_flux
+  - catvton
+  - idm
+  - oot
+  - vitonhd
+  - hrviton
+  - sdviton
+  - qwen_edit
+  - nanobanana
+  - openai
+  - catdm
+  - ladi
+test_target_vton_model_ids:
+  - fitdit
+  - any2any
+  - catvton_flux
+  - catvton
+  - idm
+  - oot
+  - vitonhd
+  - hrviton
+  - sdviton
+  - qwen_edit
+  - nanobanana
+  - openai
+  - catdm
+  - ladi
+train_target_dataset_types:
+  - synth_vton
+  - vton_evals_dc
+  - vton_evals_vitonhd
+valid_target_dataset_types:
+  - synth_vton
+  - vton_evals_dc
+  - vton_evals_vitonhd
+test_target_dataset_types:
+  - synth_vton
+  - vton_evals_dc
+  - vton_evals_vitonhd
+model:
+  model_name: facebook/dinov3-vitl16-pretrain-lvd1689m
+  n_mid_s_attn: 12
+  n_mid_c_attn: 12
+  heads: 16
+  p_drop: 0.1
+  temperature_scale: 0.65
+  learn_branch_weight: true
