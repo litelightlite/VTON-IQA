@@ -11,7 +11,7 @@ This repository is the official implementation of the paper "Reference-Free Imag
 We recommend using Python 3.10.14 for compatibility.
 
 ```bash
-sudo apt-get install aria2  # Used for faster downloads
+sudo apt-get install aria2  # Use for faster downloads
 pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --extra-index-url https://download.pytorch.org/whl/cu124
 pip install -r requirements.txt
 ```
