@@ -2,6 +2,7 @@
 This repository is the official implementation of the paper "Reference-Free Image Quality Assessment for Virtual Try-On via Human Feedback".
 
 ## Updates
+- 2026/06/15: VTON-IQA Demo is now available on [Hugging Face](https://huggingface.co/spaces/zozonext/VTON-IQA) 🤗.
 - 2026/05/28: VTON-QBench and test images are released 😁.
 - 2026/05/16: Source code and pretrained weight are released 😁.
 - 2026/03/13: Our [paper on ArXiv](https://arxiv.org/abs/2603.13057) is released 😁.
